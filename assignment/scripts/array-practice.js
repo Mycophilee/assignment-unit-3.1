@@ -42,7 +42,7 @@ console.log('First animal is', firstAnimal);
 //      Be sure to console.log this new variable to make sure your code
 //      worked as expected.
 
-let secondAnimal = 'cat';
+let secondAnimal = animalArray [1]
 console.log('Second Animal is', secondAnimal)
 
 // 3.b. TODO: Create a variable `lastAnimal` and assign it the value of
@@ -50,7 +50,7 @@ console.log('Second Animal is', secondAnimal)
 //      You'll need to console.log `animalArray` and `lastAnimal` to make
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
-let lastAnimal = 'dog';
+let lastAnimal = animalArray [3]
 console.log('Last Animal is ', lastAnimal)
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
